@@ -4,6 +4,23 @@ module Diaspider
   class Spider
 
 
+    def crawl
+
+    end
+
+    def collect
+
+    end
+
+    def extract
+
+    end
+
+
+    def finish
+
+    end
+
 
     ####################################
     private

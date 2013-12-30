@@ -45,6 +45,7 @@ module Diaspider
         absolute_url = Addressable::URI.parse(abs_url).normalize 
         raise ArgumentError, "#{absolute_url} must be absolute" unless absolute_url.absolute?
         href = Addressable::URI.parse(a_href).normalize 
+        
         # return :href if :href is already absolute
         return href.to_s if href.absolute?
 

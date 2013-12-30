@@ -15,3 +15,4 @@ end
 
 gem 'mechanize'
 gem 'addressable'
+gem 'loofah'
